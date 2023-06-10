@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;}
+
+.nav{
+    background-color: #E5E5E5;
+}
+
+.top_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.top_menu-items{
+    padding: 17px 0;
+}
+
+.top_menu-links{
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.logo_number{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo_name{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #F13C6E;
+    text-transform: uppercase;
+}
+
+.telephone{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.telephone_but{
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding: 13px 60px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-top: 1px solid #EFEFEF;
+}
+
+.menu-items{
+    padding: 30px 0;
+}
+
+.menu-links{
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+main{
+    background: #E5E5E5;
+}
+
+.big_chair-png{
+    width: 1920px;
+    height: 604px;
+}
+
+
+.offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.offers-text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 80px;
+    padding-bottom: 38px;
+}
+
+.cards_top{
+ display: flex;
+
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+} 
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.lil_chair-photo{
+    width: 125px;
+    height: 166px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+.card-name{
+    width: 80%;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;}
+
+.card-price{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding-bottom: 20px;}
+
+.card-but{
+    background-color: #F13C6E;
+    border-radius: 30px;
+    padding: 9px 53px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.contacts_visit-us_container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 100px;
+}
+
+.left{
+    width: 540px;
+    height: 212px;
+}
+ 
+.right{
+    width: 540px;
+    height: 212px;
+}
+
+.impuls{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.impuls_list{
+    display: flex;
+    max-width: 1084px;
+    flex-wrap: wrap;
+}
+
+.impuls_item{
+    padding: 35px 60px;
+    border: 1px solid #EFEFEF;
+}
+
+.recently_viewed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recently_viewed-text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 80px;
+    padding-bottom: 38px;
+}
+
+.footer__menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.footer__menu-list{
+    max-width: 250px;
+}
+
+.footer__menu-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.footer__menu-item{
+    gap: 203px;   
+}
+
+
+.footer__menu-link{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;    
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo_i{
+    border-radius: 50%;
+    border: 2px solid #F13C6E;
+    padding: 9px;    
+}
+
+.logo_f{
+    border-radius: 50%;
+    border: 2px solid #F13C6E;
+    padding: 9px;
+}
+
+.bottom_copy{
+    background: #EFEFEF;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
